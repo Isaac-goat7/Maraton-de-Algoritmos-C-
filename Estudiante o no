@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string nombre = "Ana";
+    char inicial = 'A';
+    bool esEstudiante = true;
+
+    std::cout << "Nombre: " << nombre << std::endl;
+    std::cout << "Inicial: " << inicial << std::endl;
+    std::cout << "¿Es estudiante? " << esEstudiante << std::endl; // Imprime 1 para true, 0 para false
+
+    return 0;
+}

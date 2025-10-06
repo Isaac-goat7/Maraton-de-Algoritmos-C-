@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string> // Necesario para usar std::string
+
+int main() {
+    // Declaración e inicialización de variables
+    int edad = 25;
+    double altura = 1.75;
+
+    // Imprimimos las variables
+    std::cout << "Edad: " << edad << std::endl;
+    std::cout << "Altura: " << altura << " metros" << std::endl;
+
+    return 0;
+}
