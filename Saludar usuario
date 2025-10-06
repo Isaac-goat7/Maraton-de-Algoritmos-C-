@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string nombre;
+
+    // Pedimos al usuario que ingrese su nombre
+    std::cout << "Por favor, ingresa tu nombre: ";
+    
+    // Leemos el nombre desde el teclado y lo guardamos en la variable
+    std::cin >> nombre;
+
+    // Saludamos al usuario
+    std::cout << "¡Hola, " << nombre << "!" << std::endl;
+
+    return 0;
+}

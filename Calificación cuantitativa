@@ -1,0 +1,21 @@
+#include <iostream>
+
+int main() {
+    int calificacion;
+    std::cout << "Ingresa tu calificación numérica (0-100): ";
+    std::cin >> calificacion;
+
+    if (calificacion >= 90) {
+        std::cout << "Tu calificación es: A" << std::endl;
+    } else if (calificacion >= 80) {
+        std::cout << "Tu calificación es: B" << std::endl;
+    } else if (calificacion >= 70) {
+        std::cout << "Tu calificación es: C" << std::endl;
+    } else if (calificacion >= 60) {
+        std::cout << "Tu calificación es: D" << std::endl;
+    } else {
+        std::cout << "Tu calificación es: F" << std::endl;
+    }
+
+    return 0;
+}

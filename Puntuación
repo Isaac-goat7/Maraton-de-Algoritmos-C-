@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+    int puntuacion = 100;
+
+    std::cout << "Puntuación inicial: " << puntuacion << std::endl;
+
+    // Usamos el operador de asignación de suma
+    puntuacion += 10; // Equivale a: puntuacion = puntuacion + 10;
+    std::cout << "Después de += 10: " << puntuacion << std::endl;
+
+    // Usamos el operador de asignación de multiplicación
+    puntuacion *= 2; // Equivale a: puntuacion = puntuacion * 2;
+    std::cout << "Después de *= 2: " << puntuacion << std::endl;
+
+    std::cout << "Puntuación final: " << puntuacion << std::endl;
+
+    return 0;
+}
