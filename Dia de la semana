@@ -1,0 +1,36 @@
+#include <iostream>
+
+int main() {
+    int dia;
+    std::cout << "Ingresa un número del 1 al 7: ";
+    std::cin >> dia;
+
+    switch (dia) {
+        case 1:
+            std::cout << "Lunes" << std::endl;
+            break; // Importante: sale del switch
+        case 2:
+            std::cout << "Martes" << std::endl;
+            break;
+        case 3:
+            std::cout << "Miércoles" << std::endl;
+            break;
+        case 4:
+            std::cout << "Jueves" << std::endl;
+            break;
+        case 5:
+            std::cout << "Viernes" << std::endl;
+            break;
+        case 6:
+            std::cout << "Sábado" << std::endl;
+            break;
+        case 7:
+            std::cout << "Domingo" << std::endl;
+            break;
+        default: // Se ejecuta si ninguno de los 'case' coincide
+            std::cout << "Error: Número no válido." << std::endl;
+            break;
+    }
+
+    return 0;
+}
